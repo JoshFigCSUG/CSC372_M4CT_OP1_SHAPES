@@ -1,4 +1,7 @@
-# Shapes Project
+# CSC372_M4CT_OP1_SHAPES
+ CSC372_M4CT_OP1_SHAPES
+
+### Shapes Project
 
 This project provides a basic framework for representing and calculating properties of various geometric shapes using Java. It demonstrates the use of abstract classes, inheritance, and polymorphism in object-oriented programming.
 
