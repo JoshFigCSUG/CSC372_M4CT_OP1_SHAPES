@@ -24,6 +24,8 @@ public class Cone extends Shape {
 
     @Override
     public String toString() {
-        return "Cone:\n\tSurface Area: " + String.format("%.2f", surface_area()) + ", Volume: " + String.format("%.2f", volume());
+        return "Cone:\n\tSurface Area: " + 
+        String.format("%.2f", surface_area()) + 
+        ", Volume: " + String.format("%.2f", volume());
     }
 }
