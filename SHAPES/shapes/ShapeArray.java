@@ -1,4 +1,4 @@
-package com.shapes;
+package shapes;
 
 public class ShapeArray {
     public static void main(String[] args) {

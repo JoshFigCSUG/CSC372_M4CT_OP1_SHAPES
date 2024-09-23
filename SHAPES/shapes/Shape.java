@@ -1,4 +1,4 @@
-package com.shapes;
+package shapes;
 
 public abstract class Shape {
     public abstract double surface_area();

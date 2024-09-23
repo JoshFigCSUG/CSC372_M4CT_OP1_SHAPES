@@ -1,4 +1,4 @@
-package com.shapes;
+package shapes;
 
 public class Sphere extends Shape {
     private double radius;
