@@ -1,3 +1,5 @@
+package com.shapes;
+
 public class ShapeArray {
     public static void main(String[] args) {
         Sphere sphere = new Sphere(5);
