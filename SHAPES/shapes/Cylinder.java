@@ -11,18 +11,18 @@ public class Cylinder extends Shape {
 
     @Override
     public double surface_area() {
-        // 2πr² + 2πrh 
-        return 2 * Math.PI * radius * radius + 2 * Math.PI * radius * height;
+        // 2(PI*r^2) + (2PI*r*h) 
+        return (2 * Math.PI * radius * radius) + (2 * Math.PI * radius * height);
     }
 
     @Override
     public double volume() {
-        // πr²h
+        // PI*r^2*h
         return Math.PI * radius * radius * height;
     }
 
     @Override
     public String toString() {
-        return "Cylinder - Surface Area: " + surface_area() + ", Volume: " + volume();
+        return "Cylinder:\n\tSurface Area: " + String.format("%.2f", surface_area()) + ", Volume: " + String.format("%.2f", volume());
     }
 }
